@@ -1,0 +1,84 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: slategrey;
+  color: white; 
+}
+hi{
+  font-family: verdana, arial, sans-serif;
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+    background: lightgreen;
+}
+#button2 {
+    background: lightblue;
+}
+#button3 {
+    background: pink;
+}
+#button4 {
+    background: lightyellow;
+}
+#button5 {
+    background: #8247e5;
+}
+#button6 {
+    background: grey;
+}
+#button1:active, #button1.lit {
+    background:url(https://cdn.glitch.global/1f347486-960a-4775-8438-0b12d6d7563a/Solana_logo.png?v=1649973059669);
+    background-size:200px 200px;
+}
+#button2:active, #button2.lit {
+    background:url(https://cdn.glitch.global/1f347486-960a-4775-8438-0b12d6d7563a/chainlink.png?v=1649973068392);
+    background-size:200px 200px;
+}
+#button3:active, #button3.lit {
+    background:url(https://cdn.glitch.global/1f347486-960a-4775-8438-0b12d6d7563a/avalanche.png?v=1649973064874);
+    background-size:200px 200px;
+}
+#button4:active, #button4.lit {
+    background:url(https://cdn.glitch.global/1f347486-960a-4775-8438-0b12d6d7563a/bitcoin.png?v=1649973067386);
+    background-size:200px 200px;
+}
+#button5:active, #button5.lit {
+    background:url(https://cdn.glitch.global/1f347486-960a-4775-8438-0b12d6d7563a/polygon.png?v=1649973065666);
+    background-size:200px 200px;
+}
+#button6:active, #button6.lit {
+    background:url(https://cdn.glitch.global/1f347486-960a-4775-8438-0b12d6d7563a/eth.png?v=1649973076624);
+    background-size:200px 200px;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
